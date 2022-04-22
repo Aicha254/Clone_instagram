@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+        <div class="container" [ngClass] ="{like : image === 'Dislike'}"> 
+   
+            <h1>{{ville.title }}</h1>
+            <h3>{{ville.description}}</h3>
+            <p>{{ville.date}}</p>
+            <img src="{{ville.imageurl}}" width="600">
+            <!-- <p *ngIf="newyork.location"> Photo prise a {{newyork.location}} </p> -->
+            
+                <!-- <p>
+                    <button (click) = "onAddLike()">{{boutonText}}:</button>
+                    {{ville.snap}}
+                </p> -->
+                <span class="image">
+                    <img src="assets/image/{{image}}" (click) = "onAddLike()">
+                    {{ville.snap}}
+                </span> 
+        </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   

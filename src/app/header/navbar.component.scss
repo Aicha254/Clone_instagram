@@ -1,0 +1,27 @@
+.navbar{
+    background-color: #FFFFFF;
+    border-bottom: 1px solid rgba(var(--b6a,219,219,219),1);
+    padding: 1rem;
+}
+.form-control{
+    margin-right: 200px;
+    background-color:  #EFEFEF;
+    padding: 7px 20px;
+    border-radius: 8px;
+    border: none;  
+}
+.navbar .logo{
+    margin-left: 200px;
+}
+.navbar .icon img{
+    width: 100%; 
+}
+.navbar .icon{
+    display: flex;
+    margin-right: 80px;
+    // padding: 0 50px;
+    font-size: 20px;
+}
+.navbar .icon i{
+    padding-right: 30px;
+}

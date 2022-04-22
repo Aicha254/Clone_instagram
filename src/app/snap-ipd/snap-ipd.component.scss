@@ -1,0 +1,27 @@
+body{
+    background-color: #FAFAFA;
+}
+.container{
+    border: 2px solid rgba(var(--b6a,219,219,219),1);
+    border-radius: 10px;
+    width: 50%;
+    margin-left: 400px;
+    margin-top: 8rem;
+    text-align: center;
+    background-color: #ffff;
+}
+h1{
+   font-size: 50px;
+   
+}
+.like{
+    // background-color: lightgreen;
+    button{
+        background-color: green;
+        
+    }
+}
+.image img{
+    width: 8%;
+
+}
